@@ -11,7 +11,7 @@ def main():
     while True:
         count += 1
         logging.info(f"Heartbeat log #{count}")
-        time.sleep(2)
+        time.sleep(0.5)
 
 if __name__ == "__main__":
     main()
